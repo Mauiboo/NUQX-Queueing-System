@@ -1,0 +1,157 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 160px; 
+  margin-right: 400px;
+  position: fixed;
+  width: 500px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.services-list {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  margin-left: 1400px;
+  margin-top: -650px;
+  position: fixed; 
+  top: 94%; 
+  right: 300px; 
+  transform: translateY(-50%); 
+}
+
+.services-list h4 {
+  font-size: 22px; 
+  color: #2D2D75; 
+}
+
+.process-title h2{
+  margin-top: 0px;
+  color: #2D2D75;
+  font-size: 22px; 
+  margin-right: 500px;
+  position: absolute;
+}
+
+.custom-dropdown {
+  width: 30%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 300px;
+  position: relative;
+  top: -25px; 
+}
+
+.process-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; 
+  gap: 10px; 
+  width: 90%;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  height: 350px;
+  margin-top: 450px;
+  margin-right: -800px;
+  position: fixed; 
+
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px; 
+
+}
+
+th {
+  background: #35408E;
+  color: white;
+  font-size: 16px; 
+  font-weight: normal;
+
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+}
+
+.submit-btn {
+  background: #35408E;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  right: 1230px;
+  position: fixed;
+  width: 100px;
+  height: 40px; 
+  margin-bottom: 50px;
+  display: flex;          
+  justify-content: center; 
+  align-items: center;   
+  text-align: center; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+.submit-btn:hover {
+  background: #35408E;
+}
+
+.clear-btn {
+  background: #35408E;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  right: 1120px;
+  width: 100px;
+  height: 40px; 
+  margin-bottom: 50px;
+  position: fixed;
+
+  display: flex;         
+  justify-content: center; 
+  align-items: center;    
+
+  text-align: center; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+.clear-btn:hover {
+  background: #35408E;
+}
+
+.services-list table {
+  margin-top: 20px;
+}
+
+

@@ -1,0 +1,59 @@
+:root {
+    scroll-behavior: smooth;
+
+    --primary: #4154f1;
+    --second: #717ff5;
+    --bgColor:#f6f9ff;
+}
+
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'ClanOT Medium', sans-serif;
+    color: #444444;
+    background: var(--bgcolor);
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color:#717ff5;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'ClanOT Medium', sans-serif;
+}
+
+@font-face {
+    font-family: 'ClanOT Black';
+    src: url('../../../src/assets/fonts/ClanOT-NarrowBlack.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'ClanOT Bold';
+    src: url('../../../src/assets/fonts/ClanOT-NarrowBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'ClanOT Medium';
+    src: url('../../../src/assets/fonts/ClanOT-NarrowMedium.otf') format('opentype');
+}
+
+
+  

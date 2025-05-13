@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "ClanOT Medium";
+  src: url("./assets/fonts/ClanOT-NarrowMedium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClanOT Book";
+  src: url("./assets/fonts/ClanOT-NarrowBook.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClanOT Bold";
+  src: url("./assets/fonts/ClanOT-NarrowBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "ClanOT Medium", sans-serif;
+  font-size: 14px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content-monitor {
+  background-color: white;
+  display: flex;
+  padding: 25px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 100rem;
+}
+
+.queue-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.left-section {
+  align-self: center;
+}
+.left-section,
+.right-section {
+  width: 50%;
+  padding: 25px;
+}
+
+@media (min-width: 768px) {
+  .right-section {
+    border-left: 4px solid #35408e;
+  }
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.serving-box {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  height: 100%;
+  overflow: auto;
+}
+
+.serving-header {
+  background-color: #35408e;
+  color: white;
+  font-size: 32px;
+  padding: 16px;
+}
+
+.serving-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.proceed-text {
+  color: #ff0202;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.window-box {
+  border: 1px solid #35408e;
+  border-radius: 10px;
+  padding: 10px 16px;
+  margin-bottom: 14px;
+  font-size: 26px;
+  min-width: 180px;
+  text-align: center;
+}
+
+.queue-number {
+  font-size: 90px;
+  color: #35408e;
+  margin-top: 25px;
+  height: 110px;
+}
+
+.window-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.horizontal-divider {
+  height: 4px;
+  background-color: #35408e;
+  width: 100%;
+  margin: 15px 0 20px 0;
+}
+
+.footer {
+  background-color: #35408e;
+  height: 60px;
+}
+
+@media (max-width: 768px) {
+  .left-section,
+  .right-section {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .serving-box {
+    margin-top: 35px;
+  }
+
+  .queue-number {
+    font-size: 64px;
+    height: 90px;
+  }
+
+  .header-title {
+    font-size: 24px;
+  }
+}

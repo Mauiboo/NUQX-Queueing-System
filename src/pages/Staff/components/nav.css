@@ -1,0 +1,43 @@
+.nav-avatar-container {
+  display: flex;
+  background-color: #35408E;
+  color: white;
+  width: 300px;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-avatar-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+.text-info {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: center;
+  margin: -20px;
+
+}
+
+.nav-avatar-name {
+  font-size: 1.2rem;
+  font-weight: 200; 
+  color: white;
+  margin: 0;
+  text-align: right;
+  
+}
+
+.nav-avatar-title {
+  font-size: 1rem;
+  color: white;
+  margin: 0;
+  text-align: right;
+}
