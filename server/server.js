@@ -21,6 +21,16 @@ connectToMongo();
 // Routes
 app.use("/api/auth", authRoutes);
 
+// Serve static files from the React app's build directory (assuming it's in the root)
+const buildPath = path.join(__dirname, '..', 'build');
+app.use(express.static(buildPath));
+
+// The "catchall" handler: for any request that doesn't match an API route,
+// send back the main index.html file from the React app.
+app.get('*', (req, res) => {
+  res.sendFile(path.join(buildPath, 'index.html'));
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
